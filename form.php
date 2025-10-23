@@ -57,7 +57,7 @@
             </div>
 
             <div class="boxForm">
-                <h3 id="titleContact">¿Qué errores has cometido que afectaron al medioambiente?</h3>
+                <h3 id="titleContact">¿Qué contacto quieres?</h3>
                 <div id="content-contact">
                     <?php
                         foreach($contactos as $condicion=>$texto){
@@ -77,4 +77,5 @@
             <p>© 2025 Adrián Risco Sánchez - Impacto del cambio climático en las personas</p>
         </footer>
     </body>
+
 </html>
