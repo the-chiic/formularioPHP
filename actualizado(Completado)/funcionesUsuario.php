@@ -11,10 +11,6 @@
         }
 
         public function mostrarPaises(){
-            //Activar la notificación
-            $controlador=new mysqli_driver();
-            $controlador->report_mode=MYSQLI_REPORT_ALL;
-
             //Creo el array donde guardaré los $paises
             $this->paises=[];
 
@@ -38,10 +34,6 @@
         }
 
         public function mostrarContactos(){
-            //Activar la notificación
-            $controlador=new mysqli_driver();
-            $controlador->report_mode=MYSQLI_REPORT_ALL;
-
             //Creo el array donde guardaré los $contactos
             $this->contactos=[];
 
