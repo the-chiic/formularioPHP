@@ -1,0 +1,276 @@
+body{
+    background-color: white;    /*Color del fondo*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   /*Fuente de la letra*/
+    margin: 0 auto;     /*Para centrar cajas*/
+}
+
+header{
+    background-color: rgb(24, 75, 77);
+    text-align: center;     /*Alineado al centro el texto*/
+}
+
+#title{
+    padding: 20px 0px 20px 0px;     /*Padding arriba y abajo se puede poner también padding: 20px 0px*/
+    color: white;
+    margin: 0;      /*Quito el margin por defecto y lo pongo a 0*/
+}
+
+nav{
+    background-color: rgb(245, 210, 158);
+    padding: 20px 0px 20px 0px;
+}
+
+ul{
+    padding: 0;
+}
+
+#list-box{
+    padding: 0;
+}
+
+#list-box li{
+    list-style: none;
+    display: inline-block;  /*Pone los enlaces en horizontal*/
+}
+
+#news{
+    padding: 0px 288px;
+    width: 100px;       /*Tamaño que ocupa*/
+}
+
+#board{
+    padding-right: 288px;   /*Padding solo a la derecha*/
+    width: 80px;
+}
+
+#form{
+    padding-right: 288px;
+    width: 130px;
+}
+
+.nav-a{
+    background-color: rgb(245, 210, 158);
+    color: black;
+    padding: 5px;   /*Pading en todos lados a 5px*/
+    font-weight: bold;  /*Negrita*/
+    text-decoration: none;  /*Quitar línea de subrayado*/
+    transition: color 0.3s, background-color 0.3s;  /*Tiempo que tarda en hacer la animación*/
+}
+
+.nav-a:hover{       /*Para hacer animaciones*/
+    background-color: aliceblue;
+}
+
+aside{
+    width: 285px;
+    height: 820px;
+    float: left;    /*Flotado a la izquierda*/
+    background-color: cadetblue;
+    padding: 20px;
+    margin: 50px 50px;
+    border: solid 1px black;
+    border-radius: 10px;
+    color: aliceblue;
+    text-align: justify;
+}
+
+h2{
+    color: black;
+    text-align: left;
+}
+
+h3{
+    color: black;
+    text-align: left;
+}
+
+#img-aside{
+    width: 250px;
+    padding-top: 10px;
+    border-radius: 30px;    /*Bordes redondeados*/
+}
+
+#curiosity-title{
+    padding-top: 50px;  /*Padding arriba*/
+}
+
+main{
+    width: 880px;
+    float: left;
+    background-color: cadetblue;
+    padding: 20px;
+    margin: 50px 50px;
+    border: solid 1px black;
+    border-radius: 10px;
+    color: aliceblue;
+    text-align: justify;
+}
+
+table{
+    color: black;
+    background-color: blanchedalmond;
+    border-collapse: collapse;      /*Para que se vea una sola línea de borde*/
+}
+
+tr, th, td{
+    border: solid 2px black;
+}
+
+th{
+    background-color: burlywood;
+}
+
+.first-cell{
+    background-color: chocolate;
+}
+
+ul{
+    color: black;
+}
+
+#section-list{
+    width: 600px;
+    margin: 0 auto;
+    list-style: circle;
+}
+
+footer{
+    color: black;
+    clear: both;        /*Limpio todos los float*/
+    text-align: center;
+}
+
+/*-----------------------------------NEWS----------------------------------------*/
+
+#main-news{
+    padding: 0px 240px;
+    width: 195px;
+}
+
+#news-text-container{
+    float: none;        /*Le quito que sea float para poder después centrarlo*/
+    margin: 50px auto;
+}
+
+.normal-a{
+    color: rgb(2, 21, 163);
+    text-decoration: none;
+}
+
+.normal-a:hover{
+    text-decoration: underline; /*Texto subrayado*/
+}
+
+#source{
+    color: black;
+}
+
+#activities-list{
+    list-style: circle;
+    margin-left: 100px;
+}
+
+.activities-pad{
+    padding: 10px 0px;
+}
+
+/*----------------------------------BOARD----------------------------------------*/
+
+#news-board{
+    padding-right: 285px;   /*Padding a la derecha*/
+    width: 100px;
+}
+
+#board-text-container{
+    width: 1200px;
+    margin: 80px auto;
+}
+
+.title-before{
+    padding: 0px 13px;  /*Sale al medir el espacio de las columnas inpares para que haya el mismo espacio*/
+}
+
+.table-img-left{
+    width: 197px;   /*Sale al medir cada celda que es torno 480*/
+    float: left;
+    transition: transform 0.5s ease;
+}
+
+.table-img-left:hover{
+    transform: scale(1.10); /*Agranda cajas*/
+}
+
+.table-img-right{
+    width: 197px;
+    float: right;
+    transition: transform 0.5s ease;
+}
+
+.table-img-right:hover{
+    transform: scale(1.10);
+}
+
+/*----------------------------------FORM-----------------------------------------*/
+
+#news-form{
+    padding-right: 288px;
+    width: 100px;
+}
+
+form{
+    background-color: cadetblue;
+    width: 650px;
+    margin: 40px auto;
+    padding: 50px 100px 20px 100px;
+    border: solid 1px black;
+    border-radius: 10px;
+}
+
+input[type="checkbox"]{     /*Selecctor de atributo que uso para centrar verticalmente*/
+    vertical-align: middle;
+}
+
+input[type="radio"]{
+    vertical-align: top;
+}
+
+.boxForm{
+    margin: 0px 0px 20px 0px;
+}
+
+#name{
+    float: left;
+}
+
+#surname{
+    float: right;   /*Flotado a la derecha*/
+}
+
+#pw{
+    float: left;
+}
+
+#country{
+    float: right;
+}
+
+#titleContact{
+    clear: both;
+}
+
+#content-contact{
+    float: left;
+}
+
+#clothes{
+    clear: both;
+}
+
+#termsConditions{
+    padding-top: 20px;
+}
+
+#send{
+    text-align: center;
+    margin-top: 40px;
+}
